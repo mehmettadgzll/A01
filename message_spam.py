@@ -21,7 +21,7 @@ root = tk.Tk()
 root.title("Mesaj Yazıcı")
 
 # Create a button
-send_button = tk.Button(root, text="Tetikle", command=on_click)
+send_button = tk.Button(root, text="Run", command=on_click)
 send_button.pack(pady=20)
 
 # Run the GUI
