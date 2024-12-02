@@ -44,10 +44,10 @@ pip install pyautogui
 
 
 # Kullanım #
-1- Program başlatıldığında bir Tkinter GUI penceresi açılır.
-2- "Tetikle" butonuna tıklayın.
-3- Kod, 3 saniyelik bir gecikmeden sonra aktif pencereye otomatik olarak mesaj yazmaya başlar. Bu süre içinde mesajın yazılmasını istediğiniz pencereyi seçin.
-4- Bu kodda durdurma seçeneği olmadığından, işlemi durdurmak için programı kapatmanız gerekir:
+1. Program başlatıldığında bir Tkinter GUI penceresi açılır.
+2. "Tetikle" butonuna tıklayın.
+3. Kod, 3 saniyelik bir gecikmeden sonra aktif pencereye otomatik olarak mesaj yazmaya başlar. Bu süre içinde mesajın yazılmasını istediğiniz pencereyi seçin.
+4. Bu kodda durdurma seçeneği olmadığından, işlemi durdurmak için programı kapatmanız gerekir:
         *Terminalde Ctrl + C tuş kombinasyonuna basarak işlemi sonlandırabilirsiniz.
         *Alternatif olarak, GUI penceresini kapatabilirsiniz.
 
