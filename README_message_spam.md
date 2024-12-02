@@ -1,6 +1,6 @@
-###################
+################
 ##### ENGLISH #####
-###################
+################
 
 # Message Spam Bot #
 --------------------
@@ -25,9 +25,14 @@ pip install pyautogui
 - Since the program uses an infinite loop, make sure to terminate it manually when it's no longer needed.
 
 
-###################
+
+
+
+
+
+################
 ##### TÜRKÇE ######
-###################
+################
 
 # mesaj spam botu #
 -------------------
