@@ -3,26 +3,26 @@ import time
 import tkinter as tk
 import threading
 
-# Göndermek istediğin mesaj
-message = "Merhaba, bu otomatik bir mesaj!"
+# The message you want to send
+message = "Hello, this is an automated message!"
 
 def write_message():
-    time.sleep(3)  # Mesajı yazmaya başlamadan önce 3 saniye bekle
+    time.sleep(3)  # Wait 3 seconds before starting to write the message
     while True:
-        pyautogui.typewrite(message + '\n', interval=0.05)  # Mesajı daha yavaş yaz
-        time.sleep(1)  # Mesajlar arasında 1 saniye bekle
+        pyautogui.typewrite(message + '\n', interval=0.05)  # Write the message slower
+        time.sleep(1)  # Wait 1 second between messages
 
 def on_click():
-    # Yeni bir thread başlat
+    # Start a new thread
     threading.Thread(target=write_message, daemon=True).start()
 
-# Tkinter GUI oluşturma
+# Creating a Tkinter GUI
 root = tk.Tk()
 root.title("Mesaj Yazıcı")
 
-# Buton oluşturma
+# Create a button
 send_button = tk.Button(root, text="Tetikle", command=on_click)
 send_button.pack(pady=20)
 
-# GUI'yi çalıştırma
+# Run the GUI
 root.mainloop()
