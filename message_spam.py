@@ -18,7 +18,7 @@ def on_click():
 
 # Creating a Tkinter GUI
 root = tk.Tk()
-root.title("Mesaj Yazıcı")
+root.title("Message Bot")
 
 # Create a button
 send_button = tk.Button(root, text="Run", command=on_click)
