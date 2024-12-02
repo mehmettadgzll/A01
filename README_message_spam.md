@@ -35,7 +35,7 @@ pip install pyautogui
 ##### TÜRKÇE ######
 ################
 
-# mesaj spam botu #
+# Mesaj Spam Botu #
 -------------------
 
 # Kodun çalışması için pyautogui kütüphanesi yüklü olmalı. #
@@ -48,8 +48,8 @@ pip install pyautogui
 2. "Tetikle" butonuna tıklayın.
 3. Kod, 3 saniyelik bir gecikmeden sonra aktif pencereye otomatik olarak mesaj yazmaya başlar. Bu süre içinde mesajın yazılmasını istediğiniz pencereyi seçin.
 4. Bu kodda durdurma seçeneği olmadığından, işlemi durdurmak için programı kapatmanız gerekir:
-        *Terminalde Ctrl + C tuş kombinasyonuna basarak işlemi sonlandırabilirsiniz.
-        *Alternatif olarak, GUI penceresini kapatabilirsiniz.
+        -Terminalde Ctrl + C tuş kombinasyonuna basarak işlemi sonlandırabilirsiniz.
+        -Alternatif olarak, GUI penceresini kapatabilirsiniz.
 
 # Dikkat #
 -Program aktif pencereye yazı gönderir. Yanlış bir pencereye yazı göndermemek için dikkatli olun.
