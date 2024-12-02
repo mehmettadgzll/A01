@@ -24,11 +24,12 @@ pip install pyautogui
 - The program sends text to the active window. Be careful to avoid sending the message to the wrong window.
 - Since the program uses an infinite loop, make sure to terminate it manually when it's no longer needed.
 
-
-
-
-
-
+#
+#
+#
+#
+#
+#
 
 ################
 ##### TÜRKÇE ######
