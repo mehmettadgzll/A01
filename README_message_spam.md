@@ -52,7 +52,7 @@ pip install pyautogui
    - Alternatif olarak, GUI penceresini kapatabilirsiniz.
 
 # Dikkat #
--Program aktif pencereye yazı gönderir. Yanlış bir pencereye yazı göndermemek için dikkatli olun.
--Sonsuz döngü kullanıldığı için, gerekli olmadığında işlemi manuel olarak durdurmayı unutmayın.
+- Program aktif pencereye yazı gönderir. Yanlış bir pencereye yazı göndermemek için dikkatli olun.
+- Sonsuz döngü kullanıldığı için, gerekli olmadığında işlemi manuel olarak durdurmayı unutmayın.
 
 
